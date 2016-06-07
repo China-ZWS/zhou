@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E462BEE91D06B68A002A10C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E462BEE81D06B68A002A10C0 /* main.m */; };
+		E462BEEC1D06B68A002A10C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E462BEEB1D06B68A002A10C0 /* AppDelegate.m */; };
+		E462BEEF1D06B68A002A10C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E462BEEE1D06B68A002A10C0 /* ViewController.m */; };
+		E462BEF21D06B68A002A10C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E462BEF01D06B68A002A10C0 /* Main.storyboard */; };
+		E462BEF51D06B68A002A10C0 /* SilkRoadBBS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E462BEF31D06B68A002A10C0 /* SilkRoadBBS.xcdatamodeld */; };
+		E462BEF71D06B68A002A10C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E462BEF61D06B68A002A10C0 /* Assets.xcassets */; };
+		E462BEFA1D06B68A002A10C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E462BEF81D06B68A002A10C0 /* LaunchScreen.storyboard */; };
+		E462BF051D06B68A002A10C0 /* SilkRoadBBSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E462BF041D06B68A002A10C0 /* SilkRoadBBSTests.m */; };
+		E462BF101D06B68A002A10C0 /* SilkRoadBBSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E462BF0F1D06B68A002A10C0 /* SilkRoadBBSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E462BF011D06B68A002A10C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E462BEDC1D06B68A002A10C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E462BEE31D06B68A002A10C0;
+			remoteInfo = SilkRoadBBS;
+		};
+		E462BF0C1D06B68A002A10C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E462BEDC1D06B68A002A10C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E462BEE31D06B68A002A10C0;
+			remoteInfo = SilkRoadBBS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E462BEE41D06B68A002A10C0 /* SilkRoadBBS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilkRoadBBS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E462BEE81D06B68A002A10C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E462BEEA1D06B68A002A10C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E462BEEB1D06B68A002A10C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E462BEED1D06B68A002A10C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E462BEEE1D06B68A002A10C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E462BEF11D06B68A002A10C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E462BEF41D06B68A002A10C0 /* SilkRoadBBS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SilkRoadBBS.xcdatamodel; sourceTree = "<group>"; };
+		E462BEF61D06B68A002A10C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E462BEF91D06B68A002A10C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E462BEFB1D06B68A002A10C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E462BF001D06B68A002A10C0 /* SilkRoadBBSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilkRoadBBSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E462BF041D06B68A002A10C0 /* SilkRoadBBSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SilkRoadBBSTests.m; sourceTree = "<group>"; };
+		E462BF061D06B68A002A10C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E462BF0B1D06B68A002A10C0 /* SilkRoadBBSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilkRoadBBSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E462BF0F1D06B68A002A10C0 /* SilkRoadBBSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SilkRoadBBSUITests.m; sourceTree = "<group>"; };
+		E462BF111D06B68A002A10C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E462BEE11D06B68A002A10C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E462BEFD1D06B68A002A10C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E462BF081D06B68A002A10C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E462BEDB1D06B68A002A10C0 = {
+			isa = PBXGroup;
+			children = (
+				E462BEE61D06B68A002A10C0 /* SilkRoadBBS */,
+				E462BF031D06B68A002A10C0 /* SilkRoadBBSTests */,
+				E462BF0E1D06B68A002A10C0 /* SilkRoadBBSUITests */,
+				E462BEE51D06B68A002A10C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E462BEE51D06B68A002A10C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E462BEE41D06B68A002A10C0 /* SilkRoadBBS.app */,
+				E462BF001D06B68A002A10C0 /* SilkRoadBBSTests.xctest */,
+				E462BF0B1D06B68A002A10C0 /* SilkRoadBBSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E462BEE61D06B68A002A10C0 /* SilkRoadBBS */ = {
+			isa = PBXGroup;
+			children = (
+				E462BEEA1D06B68A002A10C0 /* AppDelegate.h */,
+				E462BEEB1D06B68A002A10C0 /* AppDelegate.m */,
+				E462BEED1D06B68A002A10C0 /* ViewController.h */,
+				E462BEEE1D06B68A002A10C0 /* ViewController.m */,
+				E462BEF01D06B68A002A10C0 /* Main.storyboard */,
+				E462BEF61D06B68A002A10C0 /* Assets.xcassets */,
+				E462BEF81D06B68A002A10C0 /* LaunchScreen.storyboard */,
+				E462BEFB1D06B68A002A10C0 /* Info.plist */,
+				E462BEF31D06B68A002A10C0 /* SilkRoadBBS.xcdatamodeld */,
+				E462BEE71D06B68A002A10C0 /* Supporting Files */,
+			);
+			path = SilkRoadBBS;
+			sourceTree = "<group>";
+		};
+		E462BEE71D06B68A002A10C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E462BEE81D06B68A002A10C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E462BF031D06B68A002A10C0 /* SilkRoadBBSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E462BF041D06B68A002A10C0 /* SilkRoadBBSTests.m */,
+				E462BF061D06B68A002A10C0 /* Info.plist */,
+			);
+			path = SilkRoadBBSTests;
+			sourceTree = "<group>";
+		};
+		E462BF0E1D06B68A002A10C0 /* SilkRoadBBSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E462BF0F1D06B68A002A10C0 /* SilkRoadBBSUITests.m */,
+				E462BF111D06B68A002A10C0 /* Info.plist */,
+			);
+			path = SilkRoadBBSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E462BEE31D06B68A002A10C0 /* SilkRoadBBS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E462BF141D06B68A002A10C0 /* Build configuration list for PBXNativeTarget "SilkRoadBBS" */;
+			buildPhases = (
+				E462BEE01D06B68A002A10C0 /* Sources */,
+				E462BEE11D06B68A002A10C0 /* Frameworks */,
+				E462BEE21D06B68A002A10C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SilkRoadBBS;
+			productName = SilkRoadBBS;
+			productReference = E462BEE41D06B68A002A10C0 /* SilkRoadBBS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E462BEFF1D06B68A002A10C0 /* SilkRoadBBSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E462BF171D06B68A002A10C0 /* Build configuration list for PBXNativeTarget "SilkRoadBBSTests" */;
+			buildPhases = (
+				E462BEFC1D06B68A002A10C0 /* Sources */,
+				E462BEFD1D06B68A002A10C0 /* Frameworks */,
+				E462BEFE1D06B68A002A10C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E462BF021D06B68A002A10C0 /* PBXTargetDependency */,
+			);
+			name = SilkRoadBBSTests;
+			productName = SilkRoadBBSTests;
+			productReference = E462BF001D06B68A002A10C0 /* SilkRoadBBSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E462BF0A1D06B68A002A10C0 /* SilkRoadBBSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E462BF1A1D06B68A002A10C0 /* Build configuration list for PBXNativeTarget "SilkRoadBBSUITests" */;
+			buildPhases = (
+				E462BF071D06B68A002A10C0 /* Sources */,
+				E462BF081D06B68A002A10C0 /* Frameworks */,
+				E462BF091D06B68A002A10C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E462BF0D1D06B68A002A10C0 /* PBXTargetDependency */,
+			);
+			name = SilkRoadBBSUITests;
+			productName = SilkRoadBBSUITests;
+			productReference = E462BF0B1D06B68A002A10C0 /* SilkRoadBBSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E462BEDC1D06B68A002A10C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "周文松";
+				TargetAttributes = {
+					E462BEE31D06B68A002A10C0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E462BEFF1D06B68A002A10C0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E462BEE31D06B68A002A10C0;
+					};
+					E462BF0A1D06B68A002A10C0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E462BEE31D06B68A002A10C0;
+					};
+				};
+			};
+			buildConfigurationList = E462BEDF1D06B68A002A10C0 /* Build configuration list for PBXProject "SilkRoadBBS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E462BEDB1D06B68A002A10C0;
+			productRefGroup = E462BEE51D06B68A002A10C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E462BEE31D06B68A002A10C0 /* SilkRoadBBS */,
+				E462BEFF1D06B68A002A10C0 /* SilkRoadBBSTests */,
+				E462BF0A1D06B68A002A10C0 /* SilkRoadBBSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E462BEE21D06B68A002A10C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E462BEFA1D06B68A002A10C0 /* LaunchScreen.storyboard in Resources */,
+				E462BEF71D06B68A002A10C0 /* Assets.xcassets in Resources */,
+				E462BEF21D06B68A002A10C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E462BEFE1D06B68A002A10C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E462BF091D06B68A002A10C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E462BEE01D06B68A002A10C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E462BEF51D06B68A002A10C0 /* SilkRoadBBS.xcdatamodeld in Sources */,
+				E462BEEF1D06B68A002A10C0 /* ViewController.m in Sources */,
+				E462BEEC1D06B68A002A10C0 /* AppDelegate.m in Sources */,
+				E462BEE91D06B68A002A10C0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E462BEFC1D06B68A002A10C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E462BF051D06B68A002A10C0 /* SilkRoadBBSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E462BF071D06B68A002A10C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E462BF101D06B68A002A10C0 /* SilkRoadBBSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E462BF021D06B68A002A10C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E462BEE31D06B68A002A10C0 /* SilkRoadBBS */;
+			targetProxy = E462BF011D06B68A002A10C0 /* PBXContainerItemProxy */;
+		};
+		E462BF0D1D06B68A002A10C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E462BEE31D06B68A002A10C0 /* SilkRoadBBS */;
+			targetProxy = E462BF0C1D06B68A002A10C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E462BEF01D06B68A002A10C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E462BEF11D06B68A002A10C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E462BEF81D06B68A002A10C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E462BEF91D06B68A002A10C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E462BF121D06B68A002A10C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E462BF131D06B68A002A10C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E462BF151D06B68A002A10C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SilkRoadBBS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-China-ZWS.SilkRoadBBS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E462BF161D06B68A002A10C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SilkRoadBBS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-China-ZWS.SilkRoadBBS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E462BF181D06B68A002A10C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SilkRoadBBSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-China-ZWS.SilkRoadBBSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SilkRoadBBS.app/SilkRoadBBS";
+			};
+			name = Debug;
+		};
+		E462BF191D06B68A002A10C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SilkRoadBBSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-China-ZWS.SilkRoadBBSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SilkRoadBBS.app/SilkRoadBBS";
+			};
+			name = Release;
+		};
+		E462BF1B1D06B68A002A10C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SilkRoadBBSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-China-ZWS.SilkRoadBBSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SilkRoadBBS;
+			};
+			name = Debug;
+		};
+		E462BF1C1D06B68A002A10C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SilkRoadBBSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-China-ZWS.SilkRoadBBSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SilkRoadBBS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E462BEDF1D06B68A002A10C0 /* Build configuration list for PBXProject "SilkRoadBBS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E462BF121D06B68A002A10C0 /* Debug */,
+				E462BF131D06B68A002A10C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E462BF141D06B68A002A10C0 /* Build configuration list for PBXNativeTarget "SilkRoadBBS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E462BF151D06B68A002A10C0 /* Debug */,
+				E462BF161D06B68A002A10C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E462BF171D06B68A002A10C0 /* Build configuration list for PBXNativeTarget "SilkRoadBBSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E462BF181D06B68A002A10C0 /* Debug */,
+				E462BF191D06B68A002A10C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E462BF1A1D06B68A002A10C0 /* Build configuration list for PBXNativeTarget "SilkRoadBBSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E462BF1B1D06B68A002A10C0 /* Debug */,
+				E462BF1C1D06B68A002A10C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E462BEF31D06B68A002A10C0 /* SilkRoadBBS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E462BEF41D06B68A002A10C0 /* SilkRoadBBS.xcdatamodel */,
+			);
+			currentVersion = E462BEF41D06B68A002A10C0 /* SilkRoadBBS.xcdatamodel */;
+			path = SilkRoadBBS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E462BEDC1D06B68A002A10C0 /* Project object */;
+}
