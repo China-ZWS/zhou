@@ -7,18 +7,57 @@
 //
 
 #import "AppDelegate.h"
+#import "WXApiManager.h"
+
+//#import "WXApi.h"
 
 @interface AppDelegate ()
-
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    [NSThread sleepForTimeInterval:2.0];
     // Override point for customization after application launch.
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:NO];
+    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeClear];
+    [SVProgressHUD setBackgroundColor:RGBA(230, 230, 230, 1)];
+
+    NSLog(@"BOOL %d",[WXApi registerApp:@"wx79bd1989e6ea1113"]);
+//    cookieWithProperties
+    
+    if ([keychainItemManager readCookie])
+    {
+        [[NSHTTPCookieStorage sharedHTTPCookieStorage] setCookie:[keychainItemManager readCookie]];
+        
+    }
     return YES;
 }
+
+//- (void)setCookie{
+//    NSMutableDictionary *cookieProperties = [NSMutableDictionary dictionary];
+//    [cookieProperties setObject:@"JSESSIONID" forKey:NSHTTPCookieName];
+//    [cookieProperties setObject:[keychainItemManager readDatas][@"sessionid"] forKey:NSHTTPCookieValue];
+//    [cookieProperties setObject:@"xxx.xxx.com" forKey:NSHTTPCookieDomain];
+//    [cookieProperties setObject:@"/" forKey:NSHTTPCookiePath];
+//    [cookieProperties setObject:@"0" forKey:NSHTTPCookieVersion];
+//    [cookieProperties setObject:[[NSDate date] dateByAddingTimeInterval:2629743] forKey:NSHTTPCookieExpires];
+//    
+//    [[NSHTTPCookieStorage sharedHTTPCookieStorage] setCookie:[keychainItemManager readCookie]];
+//}
+
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    return  [WXApi handleOpenURL:url delegate:[WXApiManager sharedManager]];
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [WXApi handleOpenURL:url delegate:[WXApiManager sharedManager]];
+}
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

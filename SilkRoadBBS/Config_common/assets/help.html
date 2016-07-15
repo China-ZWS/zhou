@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>帮助</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css?"/>
+	<script type="text/javascript">
+		var helpInfo = [{
+			title:"1.关于我们",
+			content:"丝路淘金：是一个同时建立在移动互联网与PC端的，安卓系统与苹果系统兼顾的，基于中国纺织全产业链垂直细分板块对应一带一路沿线国家纺织服装全产业链垂直细分板块的，开放式会员制，企业黄页加板块论坛式集约商讯平台。平台第一期将重点打造中国板块与孟加拉板块，特别是孟加拉板块，将作为模式案例向一带一路沿线国家板块招商、加盟、复制。"
+		},{
+			title:"2.我们组织结构",
+			content:"丝路淘金：是扁平化的三层机构设置，首席运营官，平台维护与财务管理，紧密型三层加板主副板主与会员，运营推广松散型的二层。"
+		},{
+			title:"3.平台的特点",
+			content:"<p>1、纺织服装全产业链细分领域全覆盖。</p><p>2、中国与一带一路各国对应板块论坛设计。如：中国牛仔面辅料论坛（含设备、浆染、织造、后整、）对应，孟加拉牛仔制衣厂论坛（制衣、洗水、贸易、接单）。</p><p>3、会员全部以企业为单元组成，包含企业基本资料静态展示区、讨论张贴动态展示区，具有全面的极高的基础商业资讯价值与动态创新的发贴跟贴公示的商业资讯互动推介价值。</p><p>4、采用了移动互联网最为流行的分红式上下线二级推荐，形成传播与会员的一级倍增。创新运用会员执有的相关单位个人名片上传，板主审核代为登录黄页公示，（第一层价值）会员再进行线上线下的，价值倒逼公示单位注册会员（第二层价值）的双层价值，形成黄页价值与会员的二级倍增。</p><p>5、各论坛板主由平台众筹指派，负责论坛服务与运营，副板主根椐成功推荐会员的指标竞争上岗，启动论坛外会员登录论坛收费制服务，所收费用由平台与板主副板主按比例分成，形成部分重叠的二级分红制，对优秀业绩创造者进行多层激励，从而达到，平台快速扩张，论坛水准提高，线下活动不断，商贸活动频繁。</p><p>6、免费的各国政务论坛板块，集中展示一带一路国家所有的招商引资项目、优惠政策、服务机构、收费标准，为中国纺织行业走出去投资办厂，提供一切方便。</p><p>7、免费的学校培训机构介绍与招聘论坛板块，将为会员企业提供当地的各种优秀人才，同时，也为平台带来巨大的流量与口口相传的传播。</p><p>8、由平台统一管理接单运营的，与各论坛板主副板主按比例分红的，各论坛板块置顶广告位，未来将为平台带来巨大的收益。</p>"
+		},{
+			title:"4.如何注册与登录？",
+			content:"在使用丝路密码客户端时，您可以在手机登录界面点击注册新用户，填写公司信息后即可登录丝路密码客户端。"
+		},{
+			title:"5.为什么我进不了板块？",
+			content:"这是因为您账号已使用完一次免费进入板块的机会，您没有响应权限再进去其他板块，需要支付购买后才能进入其他板块。"
+		},{
+			title:"6.忘记登录密码怎么办？",
+			content:"请不要着急，在登录页面可以找回密码，点击“忘记密码”，通过手机号码或邮箱即可找回密码。"
+		}]
+		function showContent(id){
+			var title = document.getElementById("title"+id);
+			var content = document.getElementById("content_title"+id);
+			if(title.className=="left") {
+				title.className = "down";
+			} else {
+				title.className = "left";
+			}
+			if(content.style.display=="block")
+				content.style.display="none"
+			else 
+				content.style.display="block"
+		}
+		
+		function hideContent(id){
+		
+		}
+		
+		function generateContent() {
+			var len = helpInfo.length;
+			var objContent = "";
+			for(var i=0;i<len;i++ ) {
+				var obj = helpInfo[i];
+				var temp = "<li onclick='showContent("+i+")' class='global-bottomLine' id='liTitle"+i+"'><div id='title"+i+"' class='";
+				if(i == 0)
+					temp += "down'>";
+				else
+					temp += "left'>";
+				temp += obj.title;
+				temp += "</div></li><div id='content_title"+i+"' class='content' ";
+				if(i == 0)
+					temp +="style='display:block;'>";
+				else
+					temp +=">";
+				temp += obj.content;
+				temp += "</div>";
+				objContent += temp;
+			}
+			document.getElementById("p1").innerHTML = objContent;
+		}
+		window.onload=function(){
+			generateContent();
+		}
+	</script>
+</head>
+<body>
+	<div class='page12'><!--帮助 -->
+      <div class='global-bottomLineLeft head'>
+			<span>帮助</span>
+		</div>
+		<div class='autherTxt'>
+         <ul id="p1">
+			
+		</ul>
+		</div>
+	</div>
+</body>
+</html>

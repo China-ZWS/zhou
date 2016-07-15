@@ -1,0 +1,251 @@
+/* 
+  Localizable.strings
+  SilkRoadBBS
+
+  Created by Song on 16/6/9.
+  Copyright © 2016年 周文松. All rights reserved.
+*/
+
+/**
+ *  @brief  版本类型
+ */
+
+type = "2";
+
+public.alert.login = "Login";
+public.alert.sending = "Sending";
+public.alert.unInfo = "Incomplete information";
+public.alert.registering = "Registering"; //注册中
+public.alert.PANC = "Passwords are not consistent"; //两次密码不一致
+public.alert.submitting = "submitting";
+public.alert.loading = "Loading";
+public.alert.setSuccess = "Success";
+public.alert.sendSuccess = "Success";
+public.alert.loginSuccess = "Login success";
+public.alert.purchasePermission = "The current plate is not to buy, whether to buy?";
+public.alert.uploadPic = "Uploading Image";
+public.alert.uploadSuccess = "Successfully posted";
+
+public.alert.changePhoneNum = "Modify the phone number";
+public.alert.changeEmail = "Modify email address";
+public.alert.correctPhoneNum = "Please enter the correct phone number";
+public.alert.correctEmail = "Please enter the correct email";
+public.btnTitle.cancel = "Cancel";
+public.btnTitle.confirm = "Confirm";
+public.btnTitle.photos = "Photos";
+public.btnTitle.photograph = "photograph";
+
+
+
+loginFieldOne = "Enter email address";
+loginFieldTwo = "Enter password";
+
+
+/**
+ *  @brief  tabBarItem 名称
+ */
+mainItem0 = "BBS";
+mainItem1 = "Profile";
+
+/**
+ *  @brief  navigationBar Title
+ */
+myProfile = "My Profile";
+RetrievePassword = "RETRIEVE PASSWORD";
+
+/**
+ *  @brief  按钮
+ */
+nextStep = "Next step";
+forgotYourPassword = "Forgot your password？";
+NavSubmit = "Submit";
+serviceTel = "Service tel";
+signOut = "Sign Out";
+
+/**
+ *  @brief  注册
+ */
+signUp = "Sign up";
+signUpTitle = "SIGN UP";
+
+
+signUpAccPlaceholder = "Email";
+authcodePlaceholder = "Email verification code";
+sendCode = "Send";
+reSendCode = "retry";
+
+/**
+ *  @brief  密码相关
+ */
+passwordPlaceholder = "Password";
+confirmPasswordPlaceholder = "Confirm password";
+newPwd = "New password";
+passwordReset = "Password reset";
+
+caregory = "Caregory";
+company = "Company";
+
+caregoryPlaceholder = "Please select caregory";
+companyPlaceholder = "Enter company";
+
+
+/**
+ *  @brief  注册
+ */
+SignUpViewController.navTitle = "Sign up";
+/**
+ *  @brief  完善信息
+ */
+improveInformation = "Improve information";
+
+ReSignUpViewController.info = "Your information";
+
+
+ReSignUpViewController.title = "Name";
+ReSignUpViewController.placeholder = "Enter your name";
+
+ReSignUpViewController.title1 = "Phone";
+ReSignUpViewController.placeholder1 = "Enter your phone number";
+
+ReSignUpViewController.title2 = "Email";
+ReSignUpViewController.placeholder2 = "Enter email address";
+
+ReSignUpViewController.title3 = "Position";
+ReSignUpViewController.placeholder3 = "Please select position";
+
+ReSignUpViewController.title4 = "Main Business";
+ReSignUpViewController.placeholder4 = "Enter main business";
+
+ReSignUpViewController.title5 = "Company Address";
+ReSignUpViewController.placeholder5 = "Enter company address";
+
+/**
+ *  @brief  首页
+ */
+HomeViewController.navTitle = "Silkroad Code";
+
+/**
+ *  @brief  会员中心
+ */
+VIPCenterViewController.navTitle = "Member Center";
+
+
+/**
+ *  @brief  我的发帖
+ */
+MypostViewController.navTitle = "My Posts";
+
+
+/**
+ *  @brief  我的回复
+ */
+MyProfileViewController.navTitle = "My Replies";
+
+/**
+ *  @brief  新手指引
+ */
+UserGuideViewController.navTitle = "User Guide";
+
+DirectoryViewController.navTitle = "Directory";
+BoardViewController.navTitle = "Board";
+/**
+ *  @brief  我的资产
+ */
+MyAssetsViewController.navTitle  = "My Assets";
+
+/**
+ *  @brief  VIP 购买界面
+ */
+VIPMembersViewController.navTitle = "VIP";
+
+/**
+ *  @brief 我的
+ */
+MyProfile.title = "Member Center";
+MyProfile.title1 = "My Posts";
+MyProfile.title2 = "My Replies";
+MyProfile.title3 = "User Guide";
+
+/**
+ *  @brief  VIP会员购买界面（订单生成）
+ */
+VIPMembersList.payBtnTitle = "BUY NOW";
+VIPMembersList.requetTitle = "Enjoy all Member Services";
+VIPMembersList.requetPriceModel = "CNY";
+VIPMembersList.title = "Board Info";
+VIPMembersList.detailTitle = "Scarce resources sharing,Faster resource information";
+VIPMembersList.title1 = "Business Directory";
+VIPMembersList.detailTitle1 = "Latest enterprice information,Limitless business opportunities";
+VIPMembersList.title2 = "Member Services";
+VIPMembersList.detailTitle2 = "Extraordinary and individual expression";
+
+
+/**
+ *  @brief  支付界面
+ */
+VIPPayViewController.navTitle = "Pay";
+VIPPayViewController.VIPTime = "VIP a month";
+VIPPayViewController.title = "Wechat Pay";
+VIPPayViewController.detailTitle = "Recommend use the latest Wechat version";
+
+
+/**
+ *  @brief  快速发帖
+ */
+PostViewController.navTitle = "Post";
+PostViewController.fieldPlaceholder = "Title";
+PostViewController.textPlaceholder = "comment";
+PostViewController.optionPlate = "Plate";
+
+
+/**
+ *  @brief  回帖
+ */
+RepliesViewController.navTitle = "post";
+RepliesViewController.fieldPlaceholder = "Title";
+RepliesViewController.textPlaceholder = "Comment";
+
+/**
+ *  @brief  帖子详情
+ */
+TopicDetailViewController.navRightTitle = "Reply";
+
+
+/**
+ *  @brief  板块列表
+ */
+ForumInfoViewController.navTitle = "Select Board";
+ForumInfoViewController.section0Title = "Common Board";
+ForumInfoViewController.section1Title = "Other Board";
+
+/**
+ *  @brief  个人中心
+ */
+UserInfoViewController.navTitle = "My Account";
+UserInfoViewController.title = "Profile Photo";
+UserInfoViewController.title1 = "Name";
+UserInfoViewController.title2 = "Phone";
+UserInfoViewController.title3 = "My company";
+UserInfoViewController.title4 = "Post";
+UserInfoViewController.title5 = "Email";
+UserInfoViewController.uploadPicFailure = "Failed to upload images";
+
+/**
+ *  @brief  设置
+ */
+SetViewController.navTitle = "Settings";
+SetViewController.title = "Help";
+SetViewController.title1 = "About";
+SetViewController.title2 = "Check for update";
+SetViewController.version1 = "The current version is the latest";
+/**
+ *  @brief  淘金
+ */
+SearchViewController.navTitle = "Search";
+
+/**
+ *  @brief  我的
+ */
+ProfileViewController.headerLeftTitle = "CNY";
+ProfileViewController.headerRightTitle = "Points";
+

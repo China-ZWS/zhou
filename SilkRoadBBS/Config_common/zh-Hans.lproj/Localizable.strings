@@ -1,0 +1,254 @@
+/* 
+  Localizable.strings
+  SilkRoadBBS
+
+  Created by Song on 16/6/9.
+  Copyright © 2016年 周文松. All rights reserved.
+*/
+
+/**
+ *  @brief  版本类型
+ */
+
+type = "1";
+
+public.alert.login = "登录中";
+public.alert.sending = "发送中";
+public.alert.unInfo = "信息填写不完全";
+public.alert.registering = "注册中"; //注册中
+public.alert.PANC = "密码输入不一致"; //两次密码不一致
+public.alert.submitting = "正在提交";
+public.alert.loading = "加载中";
+public.alert.setSuccess = "设置成功";
+public.alert.sendSuccess = "发送成功";
+public.alert.loginSuccess = "登陆成功";
+public.alert.purchasePermission = "当前板块未购买，是否去购买？";
+public.alert.uploadPic = "图片上传中";
+public.alert.uploadSuccess = "发布成功";
+
+public.alert.correctPhoneNum = "请输入正确的手机号码";
+public.alert.correctEmail = "请输入正确的手机号码邮箱";
+
+public.alert.changePhoneNum = "修改电话号码";
+public.alert.changeEmail = "修改邮箱";
+
+loginFieldOne = "请输入手机号码";
+loginFieldTwo = "请输入密码";
+
+public.btnTitle.cancel = "取消";
+public.btnTitle.confirm = "确认";
+public.btnTitle.photos = "图库";
+public.btnTitle.photograph = "拍照";
+
+
+/**
+ *  @brief  tabBarItem 名称
+ */
+mainItem0 = "主页";
+mainItem1 = "我的";
+
+/**
+ *  @brief  navigationBar Title
+ */
+myProfile = "我的账户";
+RetrievePassword = "找回密码";
+
+/**
+ *  @brief  按钮
+ */
+nextStep = "下一步";
+forgotYourPassword = "忘记密码？";
+serviceTel = "客服电话";
+NavSubmit = "提交";
+signOut = "退 出";
+
+/**
+ *  @brief  注册
+ */
+signUp = "注 册";
+signUpTitle = "手机快速注册";
+
+
+signUpAccPlaceholder = "手机号";
+authcodePlaceholder = "短信验证码";
+sendCode = "获取验证码";
+reSendCode = "重发";
+
+passwordPlaceholder = "密码";
+confirmPasswordPlaceholder = "确认密码";
+newPwd = "新密码";
+passwordReset = "密码重置";
+
+
+
+caregory = "公司类型";
+company = "公司名称";
+caregoryPlaceholder = "请选择公司类型";
+companyPlaceholder = "请输入公司名称";
+
+
+/**
+ *  @brief  注册
+ */
+SignUpViewController.navTitle = "注册";
+
+
+/**
+ *  @brief  完善注册信息
+ */
+improveInformation = "完善信息";
+ReSignUpViewController.info = "注册人信息";
+
+ReSignUpViewController.title = "姓名";
+ReSignUpViewController.placeholder = "请输入您的姓名";
+
+ReSignUpViewController.title1 = "联系电话";
+ReSignUpViewController.placeholder1 = "请输入您的联系方式";
+
+ReSignUpViewController.title2 = "常用邮箱";
+ReSignUpViewController.placeholder2 = "请输入您的邮箱地址";
+
+ReSignUpViewController.title3 = "职位";
+ReSignUpViewController.placeholder3 = "请选择职业大类";
+
+ReSignUpViewController.title4 = "主营范围";
+ReSignUpViewController.placeholder4 = "请输入公司主营范围";
+
+ReSignUpViewController.title5 = "公司地址";
+ReSignUpViewController.placeholder5 = "请输入公司详细地址";
+
+
+/**
+ *  @brief  首页
+ */
+HomeViewController.navTitle = "丝路密码";
+
+
+/**
+ *  @brief  会员中心
+ */
+VIPCenterViewController.navTitle = "会员中心";
+
+
+/**
+ *  @brief  我的发帖
+ */
+MypostViewController.navTitle = "我的发帖";
+
+/**
+ *  @brief  我的回复
+ */
+MyProfileViewController.navTitle = "我的回复";
+
+/**
+ *  @brief  新手指引
+ */
+UserGuideViewController.navTitle = "新手指引";
+
+
+
+
+DirectoryViewController.navTitle = "企业目录";
+BoardViewController.navTitle = "板块";
+
+/**
+ *  @brief  我的资产
+ */
+MyAssetsViewController.navTitle  = "我的资产";
+
+/**
+ *  @brief  VIP 购买界面
+ */
+VIPMembersViewController.navTitle = "VIP 会员";
+
+
+/**
+ *  @brief 我的
+ */
+MyProfile.title = "会员中心";
+MyProfile.title1 = "我的发帖";
+MyProfile.title2 = "我的回复";
+MyProfile.title3 = "新手指引";
+
+/**
+ *  @brief  VIP会员购买界面（订单生成）
+ */
+VIPMembersList.payBtnTitle = "立即开通";
+VIPMembersList.requetTitle = "尊享全部会员特权";
+VIPMembersList.requetPriceModel = "元";
+VIPMembersList.title = "板块资源";
+VIPMembersList.detailTitle = "板块缺席资源共享 资源信息快人一步";
+VIPMembersList.title1 = "企业黄页";
+VIPMembersList.detailTitle1 = "企业信息入驻板块 无限商机一览无余";
+VIPMembersList.title2 = "VIP专享";
+VIPMembersList.detailTitle2 = "点亮VIP会员图标 个性表达与众不同";
+
+/**
+ *  @brief  支付界面
+ */
+VIPPayViewController.navTitle = "支付";
+VIPPayViewController.VIPTime = "VIP一个月";
+VIPPayViewController.title = "微信支付";
+VIPPayViewController.detailTitle = "推荐安装5.0及以上版本的用户使用";
+
+/**
+ *  @brief  快速发帖
+ */
+PostViewController.navTitle = "快速发帖";
+PostViewController.fieldPlaceholder = "请输入标题";
+PostViewController.textPlaceholder = "请输入内容";
+PostViewController.optionPlate = "板块";
+
+/**
+ *  @brief  回帖
+ */
+RepliesViewController.navTitle = "回帖";
+RepliesViewController.fieldPlaceholder = "请输入回复标题";
+RepliesViewController.textPlaceholder = "请输入内容";
+
+
+/**
+ *  @brief  帖子详情
+ */
+TopicDetailViewController.navRightTitle = "回复";
+
+/**
+ *  @brief  板块列表
+ */
+ForumInfoViewController.navTitle = "选择板块";
+ForumInfoViewController.section0Title = "常用板块";
+ForumInfoViewController.section1Title = "其他板块";
+
+
+/**
+ *  @brief  个人中心
+ */
+UserInfoViewController.navTitle = "个人中心";
+UserInfoViewController.title = "头像";
+UserInfoViewController.title1 = "姓名";
+UserInfoViewController.title2 = "联系电话";
+UserInfoViewController.title3 = "我的公司";
+UserInfoViewController.title4 = "职位";
+UserInfoViewController.title5 = "常用邮箱";
+UserInfoViewController.uploadPicFailure = "上传图片失败";
+
+/**
+ *  @brief  设置
+ */
+SetViewController.navTitle = "设置";
+SetViewController.title = "帮助";
+SetViewController.title1 = "关于";
+SetViewController.title2 = "检查更新";
+SetViewController.version1 = "当前是最新版";
+
+/**
+ *  @brief  淘金
+ */
+SearchViewController.navTitle = "淘金";
+
+/**
+ *  @brief  我的
+ */
+ProfileViewController.headerLeftTitle = "余额";
+ProfileViewController.headerRightTitle = "赏币";
+
